@@ -1,7 +1,6 @@
 //baseURL
-const baseURL = window.location.hostname.includes('127.0.0.1')
-? 'http://127.0.0.1:5501'
-: 'https://fatecitu-pi.firebaseapp.com'
+const baseURL = window.location.hostname
+? 'https://projeto-ii-8a4d8.firebaseapp.com'
 
 /**
  * novoUsuario.
@@ -38,7 +37,7 @@ function loginFirebase(email, senha){
     .signInWithEmailAndPassword(email, senha)
     .then(result => {
       alert(`Bem vindo, ${JSON.stringify(result.user.email)}`)
-      window.location.href = `${baseURL}/home.html`
+      window.location.href = `${baseURL}projeto_final/home.html`
     })
     .catch(error => {
       console.error(error.code)
