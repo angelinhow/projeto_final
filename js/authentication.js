@@ -38,7 +38,7 @@ function loginFirebase(email, senha){
     .signInWithEmailAndPassword(email, senha)
     .then(result => {
       alert(`Bem vindo, ${JSON.stringify(result.user.email)}`)
-      window.location.href = `${baseURL}/home.html`
+      window.location.href = `${baseURL}projeto_final/home.html`
     })
     .catch(error => {
       console.error(error.code)
