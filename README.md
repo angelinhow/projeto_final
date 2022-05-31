@@ -1,1 +1,4 @@
-Nome: Angelo Mateus Alves Trentin 4º GTI Noturno
+4º GTI Noturno
+
+Angelo Matheus Alves Trentin
+Livia Ferreira da Cruz
